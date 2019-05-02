@@ -45,3 +45,6 @@ console.log('after assign: ', c);
 b.fill(5)
 console.log('bbbbbbbbbb:', b);
 
+// 由于Buffer太过常见，Node在启动时就加载了它，并将它放在了全局对象global上
+console.log(global.Buffer)
+
