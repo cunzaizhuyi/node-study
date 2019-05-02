@@ -45,4 +45,3 @@ console.log('after assign: ', c);
 b.fill(5)
 console.log('bbbbbbbbbb:', b);
 
-
