@@ -1,5 +1,9 @@
 /*
-    简单文件读取： readFile 和 readFileSync
+    简单文件读取：
+        1.异步文件读取
+            readFile
+        2.同步文件读取
+            readFileSync
  */
 
 let fs = require('fs')
