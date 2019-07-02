@@ -3,8 +3,7 @@ let path = require('path')
 
 // 1. join 根据 os 不同拼接路径
 let two = '/////two/////'
-let myPath = path.join(__dirname, '/////noe////', two, 'three')
-
+let myPath = path.join(__dirname, '/////one////', two, 'three')
 console.log('vvvvv', myPath)
 
 
@@ -20,3 +19,9 @@ console.log('解析后：', json)
 
 // 4. format 跟parse相反，将路径对象 转换 为 一个路径字符串
 console.log('搞回来：', path.format(json), path.format(json) === p)
+
+
+// 5. basename, extname, dirname
+console.log("basename:", path.basename(p))
+console.log("extname:", path.extname(p))
+console.log("dirname:", path.dirname(p))
